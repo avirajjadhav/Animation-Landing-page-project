@@ -73,14 +73,7 @@ nav ul li a{
 .btn:hover{
     border-top-right-radius: 30px;
 }
-/* .feature-image{
-    width: 530px;
-    position: absolute;
-    bottom: 0;
-    right: 6%;
-    height: auto;
-    
-} */
+
  .feature-image{
     /* width: 35%; */
     max-width: 530px;
