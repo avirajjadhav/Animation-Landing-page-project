@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/back-image.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: #333;
+}
+.login-btn{
+    font-weight: 400;
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg,#df4881,#c430d7);
+   font-size: 15px;
+   border-radius: 30px;
+   border-top-right-radius: 0;
+   transition: 0.5s;
+}
+.content{
+    margin: 10% 5%;
+    max-width: 600px;
+
+}
+.content h1{
+    color: #222;
+    font-size: 60px;
+     white-space: nowrap;
+}
+.content p{
+   margin: 10px 0 30px;
+   animation-delay: 0.5s;
+}
+.content .btn{
+    padding: 15px 80px;
+    font-size: 15px;
+    animation-delay: 1s;
+}
+.btn:hover{
+    border-top-right-radius: 30px;
+}
+/* .feature-image{
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 6%;
+    height: auto;
+    
+} */
+ .feature-image{
+    /* width: 35%; */
+    max-width: 530px;
+    /* height: auto; */
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    height:auto ;
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup {
+    100%{
+        opacity: 1;
+         transform: translateY(0px);
+    }
+}
+.feature-image.anim{
+    animation-delay: 1.5s;
+}
