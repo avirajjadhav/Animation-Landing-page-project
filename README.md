@@ -18,13 +18,14 @@ A modern and responsive social media community landing page built using HTML and
 
 * HTML5
 * CSS3
+* javascript
 * Flexbox
 * CSS Animations
 * Google Fonts
 
 ## Project Overview
 
-SocialSphere is a front-end landing page concept for a social networking platform where users can discover communities, connect with like-minded people, and share experiences. The project focuses on creating a visually appealing user interface using only HTML and CSS.
+SocialSphere is a front-end landing page concept for a social networking platform where users can discover communities, connect with like-minded people, and share experiences. The project focuses on creating a visually appealing user interface using only HTML , CSS and javascript.
 
 ## Sections Included
 
@@ -44,14 +45,8 @@ Through this project, I practiced:
 * Flexbox alignment
 * CSS transitions and animations
 * Modern landing page design principles
-
-## Future Improvements
-
-* Add JavaScript interactions
-* Implement dark mode
-* Add community showcase section
-* Include testimonials and pricing sections
-* Connect with a backend service
+* css Animation
+* javascript function
 
 ## Author
 
