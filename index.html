@@ -5,55 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
-  <body>
+  <body class="body_container">
+    <header class="header_section">
+      <nav>
+        <ul class="sidebar">
+          <li onclick="HideSidebar()">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#1f1f1f"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">How To Use</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li class="logo">
+            <a href="#"><img src="images/logo.png" alt="logo" /></a>
+          </li>
+          <li class="hideonmobile"><a href="#">Home</a></li>
+          <li class="hideonmobile"><a href="#">How To Use</a></li>
+          <li class="hideonmobile"><a href="#">About</a></li>
+          <li class="hideonmobile"><a href="#">Contact Us</a></li>
+          <li class="menu-button" onclick="ShowSidebar()">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#1f1f1f"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main class="landing-page">
-      <header>
-        <nav class="main-navigation">
+      <section class="hero-section">
+        <div class="left-box">
+          <h1 class="hero-title fade-up delay-1">
+            Share Moments.<br />
+            Create Connections.
+          </h1>
+
+          <p class="hero-description fade-up delay-2">
+            SocialSphere helps people discover communities, share ideas, and
+            build meaningful connections around the world.
+          </p>
+
+          <a href="#" class="hero-cta-btn fade-up delay-3"> Join Now </a>
+        </div>
+
+        <div class="right-box">
           <img
-            src="images/logo.png"
-            alt="SocialSphere Logo"
-            class="brand-logo"
+            src="images/rightside.png"
+            alt="Person using SocialSphere"
+            class="hero-image fade-up delay-4"
           />
-
-          <ul class="nav-menu">
-            <li><a href="#">Features</a></li>
-            <li><a href="#">How It Works</a></li>
-            <li><a href="#">Privacy</a></li>
-          </ul>
-
-          <div class="nav-actions">
-            <a href="#" class="login-link">Log In</a>
-            <a href="#" class="download-btn">Download</a>
-          </div>
-        </nav>
-      </header>
-<section class="hero-section">
-        
-          <div class="left-box">
-            <h1 class="hero-title fade-up delay-1">
-              Share Moments.<br />
-              Create Connections.
-            </h1>
-
-            <p class="hero-description fade-up delay-2">
-              SocialSphere helps people discover communities, share ideas, and
-              build meaningful connections around the world.
-            </p>
-
-            <a href="#" class="hero-cta-btn fade-up delay-3"> Join Now </a>
-          </div>
-
-          <div class="right-box">
-            <img
-              src="images/rightboximg.png"
-              alt="Person using SocialSphere"
-              class="hero-image fade-up delay-4"
-            />
-          </div>
-        
+        </div>
       </section>
-      
     </main>
   </body>
 </html>
